@@ -60,5 +60,5 @@ const dishSchema = new Schema({
 });
 
 
-var Dishes = mongoose.model('Dish',dishSchema); // Mongoose will take plural of 'Dish' and pass its plural as collection name
+var Dishes = mongoose.model('Dish',dishSchema); // Mongoose will take plural of 'Dish' and pass it as collection name
 module.exports = Dishes;
